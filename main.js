@@ -2,8 +2,8 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const fs = require('fs');
 
-// Caminho do arquivo JSON de tarefas
-const DATA_DIR = path.join(app.getPath('userData'), 'taskflow-data');
+// Caminho do arquivo JSON de tarefas (salvo localmente dentro do projeto)
+const DATA_DIR = path.join(__dirname, 'data');
 const DATA_FILE = path.join(DATA_DIR, 'tasks.json');
 
 // Garante que o diretório de dados existe

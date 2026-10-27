@@ -1,0 +1,16 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "Gerenciador de Tarefas Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": ["tarefas", "gerenciador", "desktop"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.3.2"
+  }
+}
